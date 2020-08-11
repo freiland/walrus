@@ -1,13 +1,27 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
-p {
+img {
+  width: 20%;
+}
+
+.clickable {
   cursor: pointer;
   color: #0088cc;
 
 }
 
-p:hover{
+.clickable: hover {
   text-decoration: underline;
+}
+
+#light-background {
+  background-color: lightskyblue;
+  color:darkblue;
+}
+
+#dark-background {
+  background-color:darkgreen;
+  color: lavender;
 }
